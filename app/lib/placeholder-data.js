@@ -70,6 +70,12 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
+  {
+    id: '13D07535-C59E-4157-A011-F8D2EF4E0CDD',
+    name: 'Ayush Tibra',
+    email: 'ayush@tibra.com',
+    image_url: '/customers/balazs-orban.png',
+  },
 ];
 
 const invoices = [
@@ -162,6 +168,12 @@ const invoices = [
     amount: 1000,
     status: 'paid',
     date: '2022-06-05',
+  },
+  {
+    customer_id: customers[10].id,
+    amount: 2200,
+    status: 'paid',
+    date: '2024-01-01',
   },
 ];
 
